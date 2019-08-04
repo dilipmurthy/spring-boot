@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>XYZ Corporation, IT Department</title>
+</head>
+<body>
+	<h1>
+		<b>Technical Support Request</b>
+	</h1>
+	<hr>
+	<form name="Welcome" method="post" action="request">
+		Email: <input type="text" name="emailId" /> <br> <br>
+		Software:<input type="text" name="software" /> Operating System: <input
+			type="text" name="os" /><br>
+		<p>Problem Description</p>
+		<br>
+		<textarea rows="5" cols="30" name="problemDescription"></textarea>
+		<br>
+		<hr>
+		<input type="button" value="Submit Request" />
+	</form>
+
+</body>
+</html>
